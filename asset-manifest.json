@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/thlc-ap-cs-website/static/css/main.073c9b0a.css",
-    "main.js": "/thlc-ap-cs-website/static/js/main.213884a7.js",
-    "static/js/787.8bf19fff.chunk.js": "/thlc-ap-cs-website/static/js/787.8bf19fff.chunk.js",
-    "static/media/logo.svg": "/thlc-ap-cs-website/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/thlc-ap-cs-website/index.html",
-    "main.073c9b0a.css.map": "/thlc-ap-cs-website/static/css/main.073c9b0a.css.map",
-    "main.213884a7.js.map": "/thlc-ap-cs-website/static/js/main.213884a7.js.map",
-    "787.8bf19fff.chunk.js.map": "/thlc-ap-cs-website/static/js/787.8bf19fff.chunk.js.map"
+    "main.css": "/ThlcAPCompSci/static/css/main.073c9b0a.css",
+    "main.js": "/ThlcAPCompSci/static/js/main.035df396.js",
+    "static/js/787.8bf19fff.chunk.js": "/ThlcAPCompSci/static/js/787.8bf19fff.chunk.js",
+    "static/media/logo.svg": "/ThlcAPCompSci/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/ThlcAPCompSci/index.html",
+    "main.073c9b0a.css.map": "/ThlcAPCompSci/static/css/main.073c9b0a.css.map",
+    "main.035df396.js.map": "/ThlcAPCompSci/static/js/main.035df396.js.map",
+    "787.8bf19fff.chunk.js.map": "/ThlcAPCompSci/static/js/787.8bf19fff.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.213884a7.js"
+    "static/js/main.035df396.js"
   ]
 }
