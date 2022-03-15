@@ -9,5 +9,5 @@ React
 Be sure to update the page depending on the year the course is provided
 
 
-# Disclaimers
+## Disclaimers
 I am not the owner of THLC, just a staff member
