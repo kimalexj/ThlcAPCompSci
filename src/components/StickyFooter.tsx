@@ -13,7 +13,6 @@ function Copyright() {
         Your Website
       </Link>{' '}
       {new Date().getFullYear()}
-      {'.'}
     </Typography>
   );
 }
@@ -36,7 +35,7 @@ export default function StickyFooter() {
           {'Pin a footer to the bottom of the viewport.'}
           {'The footer will move as the main element of the page grows.'}
         </Typography>
-        <Typography variant="body1">Sticky footer placeholder.</Typography>
+        <Typography variant="body1">Place</Typography>
       </Container>
       <Box
         component="footer"
@@ -52,7 +51,7 @@ export default function StickyFooter() {
       >
         <Container maxWidth="sm">
           <Typography variant="body1">
-            My sticky footer can be found here.
+            Treehouse Learning Center AP Computer Science
           </Typography>
           <Copyright />
         </Container>
