@@ -8,7 +8,7 @@ import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import Computer from '@mui/icons-material/Computer';
 
-const drawerWidth = 280;
+const drawerWidth = 220;
 
 export default function DrawerLeft(props) {
   return (
