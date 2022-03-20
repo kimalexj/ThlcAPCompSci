@@ -16,7 +16,6 @@ import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
 
-import Footer from './Footer';
 import Home from './screens/Home';
 import Today from './screens/Today';
 
@@ -110,7 +109,7 @@ export default function MainPage() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" noWrap component="div">
-            {currentScreen}
+            Treehouse Learning Center AP Computer Science
           </Typography>
         </Toolbar>
       </AppBar>
@@ -152,13 +151,12 @@ export default function MainPage() {
         >
           <CssBaseline />
           <Container component="main" sx={{ mt: 8, mb: 2 }}>
-            <Typography variant="h5" component="h2">
-              {(currentScreen !== 'Home') ? currentScreen : ''}
+            <Typography variant="h4" noWrap component="div" gutterBottom>
+              {currentScreen !== 'Home' ? currentScreen : ''}
             </Typography>
-            <br />
+            <br/>
             {screen}
           </Container>
-          <Footer />
         </Box>
       </MainPageWrapper>
     </Box>

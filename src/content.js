@@ -1,20 +1,29 @@
 import cartoon from './img/cartoon.png';
+import circles from './img/circles.png';
+import lines from './img/lines.png';
+import person from './img/person.png';
+
+const IMAGES = [cartoon, circles, lines, person];
+
+const selectImage = () => {
+    return IMAGES[Math.floor(Math.random() * IMAGES.length)];
+}
 
 const cardContent = [
     {
-        title: "Last Week's MC (2015)",
-        body: "This is the 2015 MC mock exam we took last week, pull out last week's answers.",
-        imagePath: cartoon,
-        alt: 'cartoon',
-        url: 'https://drive.google.com/file/d/1RkpuGMMzJc7kF8lcXPr3w5oSBkiTMw0R/view?usp=sharing',
-        urlSecond: 'https://drive.google.com/file/d/1_h7qOPVCEVKyN0pVEbG9PHEjDQUmZ1dy/view?usp=sharing',
-        hideAnswer: false,
+        title: "Today (2016 FRQ)",
+        body: "We'll be going over these questions one by one and breaking down the solutions, scoring, and distribution.",
+        imagePath: selectImage(),
+        alt: 'card image',
+        url: 'https://drive.google.com/file/d/1JIqtSNYqlrDUAuXuY_cX6__y2XNeRDHd/view?usp=sharing',
+        urlSecond: 'https://drive.google.com/file/d/126shKOuuB_WWOTyhUySnhMPN1reS-EWF/view?usp=sharing',
+        hideAnswer: true,
     },
     {
-        title: "This Week's FRQ (2013)",
-        body: "This is for today's mock FRQ, you'll have an hour and 15 minutes to complete it.",
-        imagePath: cartoon,
-        alt: 'cartoon',
+        title: "Remaining Time (2013)",
+        body: "If we manage to go over all of the questions for the exam set for today, we'll move onto this one for the reaminder of time.",
+        imagePath: selectImage(),
+        alt: 'card image',
         url: 'https://drive.google.com/file/d/1ikbpm5lyvLnS49Pr9Dkx5V077UbOy2hb/view?usp=sharing',
         urlSecond: 'https://drive.google.com/file/d/17zld3z8jDERfXHPIvfjymR7gs0QHYYHM/view?usp=sharing',
         hideAnswer: true,
