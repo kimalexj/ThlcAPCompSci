@@ -11,11 +11,11 @@ const selectImage = () => {
 
 const cardContent = [
     {
-        title: "Today (2017 FRQ)",
-        body: "The link will send you to the full exam but we're only going to be covering the multiple choice today.",
+        title: "Today (2019 FRQ)",
+        body: "The link will send you to the 2019 FRQ, if you're unable to reach it just look up the FRQ on google",
         imagePath: selectImage(),
         alt: 'card image',
-        url: 'https://drive.google.com/file/d/1K0nvw7qiiBTN_Oney5ICFImo5we3MOzE/view?usp=sharing',
+        url: 'https://drive.google.com/file/d/1BSkF25YeV6EZtxqHIKqpe4qzKSXGSMEB/view?usp=sharing',
         urlSecond: 'https://drive.google.com/file/d/1dqp5HHsFBOzjdLtMMKO79APSOP-LaQl4/view?usp=sharing',
         hideAnswer: true,
     },
