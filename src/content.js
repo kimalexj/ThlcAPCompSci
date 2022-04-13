@@ -15,8 +15,8 @@ const cardContent = [
         body: "We'll be going over these questions one by one and breaking down the solutions, scoring, and distribution.",
         imagePath: selectImage(),
         alt: 'card image',
-        url: 'https://drive.google.com/file/d/1JIqtSNYqlrDUAuXuY_cX6__y2XNeRDHd/view?usp=sharing',
-        urlSecond: 'https://drive.google.com/file/d/126shKOuuB_WWOTyhUySnhMPN1reS-EWF/view?usp=sharing',
+        url: 'https://drive.google.com/file/d/1g-0qeFrvZ7T3B4-BxWm8fjGjQKlT6ddz/view?usp=sharing',
+        urlSecond: 'https://drive.google.com/file/d/1REFMKwkputithvEuT2zGsqFRW8d3TpxW/view?usp=sharing',
         hideAnswer: true,
     },
     {
