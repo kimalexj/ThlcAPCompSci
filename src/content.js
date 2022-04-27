@@ -15,7 +15,7 @@ const cardContent = [
         body: "The link will send you to the 2016 MC, if you're unable to reach it just ask Alex",
         imagePath: selectImage(),
         alt: 'card image',
-        url: 'https://drive.google.com/file/d/17nVy9sdbdofK6JqBW1KWjezd5HCaJtXo/view?usp=sharing',
+        url: 'https://drive.google.com/file/d/1Vz0QJAnyaoVT-7HA99RsrUz-yaBmXtfO/view?usp=sharing',
         urlSecond: 'https://drive.google.com/file/d/1REFMKwkputithvEuT2zGsqFRW8d3TpxW/view?usp=sharing',
         hideAnswer: true,
     },
